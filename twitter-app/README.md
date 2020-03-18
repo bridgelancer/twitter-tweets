@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick start
+A functional [node](https://nodejs.org/en/) and npm installation is needed for installing dependency. A working installation of `npm` comes with `node`. The current LTS version of `node v12.16.1` would be recommended for deveopment.
+
+To install dependences, run 
+`npm install` 
+
+A development server could be fired by running
+
+`npm start`
 
 ## Available Scripts
 
