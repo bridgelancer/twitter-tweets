@@ -7,9 +7,9 @@ on the [Twitter official documentation](https://developer.twitter.com/en/docs/ba
 ## Quick start
 Python 3.6+ is required for development of the project.
 
-Source code of this project could be found on this [Github link](). To clone the repository to the current working directory, run
+Source code of this project could be found on this [Github link](https://github.com/bridgelancer/twitter-tweets/). To clone the repository to the current working directory, run
 
-`git clone `
+`git clone https://github.com/bridgelancer/twitter-tweets/`
 
 To initialize the project, please run the following commands in sequence first:
 
@@ -39,4 +39,6 @@ A Flask server would be fired up if dependencies are installed properly and the 
 The running instance would be listening to address `http://127.0.0.1:5000`.
 
 ## Testing
-[Pytest](https://docs.pytest.org/en/latest/index.html) is used. To run the test batteries, execute `pytest` after virtual environment is launched, run `pytest`
+[Pytest](https://docs.pytest.org/en/latest/index.html) is used. To run the test batteries, execute `pytest` after virtual environment is launched, run `pytest`.
+Tests for gateway functionality and expected behaviour of our timeline route has
+been written with the help of [Flask testing documentation](https://flask.palletsprojects.com/en/1.1.x/testing/).
